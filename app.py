@@ -85,31 +85,31 @@ def get_email_templates():
     """
     return {
         "default": {
-            "subject": "Hi, I am Akash Sakhare",
+            "subject": "Hi, I am Tushar Desai",
             "body": """{greeting},
 
 I hope you're having a productive and meaningful day.
 
-My name is Akash Sakhare, and I’m currently working as a Junior Software Engineer in Bangalore. I’m reaching out to explore any potential openings for AI/ML or Software Engineer roles at your organization. I’ve been following the impactful work your team delivers, and I’d be excited to contribute my skills and passion to such a forward-thinking environment.
+My name is Tushar Desai, and I’m currently working as a Junior Software Engineer in Bangalore. I’m reaching out to explore any potential openings for AI/ML or Software Engineer roles at your organization. I’ve been following the impactful work your team delivers, and I’d be excited to contribute my skills and passion to such a forward-thinking environment.
 
 I’ve attached my resume for your review. If there are any current or upcoming opportunities where I could contribute, I’d love to connect and discuss further.
 
 Warm regards,
-Akash Sakhare
+Tushar Desai
 """
         },
         "concise": {
             "subject": "AI/Data Science Opportunity",
             "body": """{greeting},
 
-I hope this email finds you well. I'm Akash Sakhare, a Junior Software Engineer with experience in AI development, and I'm interested in exploring opportunities with your team.
+I hope this email finds you well. I'm Tushar Desai, a Junior Software Engineer with experience in AI development, and I'm interested in exploring opportunities with your team.
 
 My key achievements include building ML pipelines, developing conversational AI, and fine-tuning LLMs. I'm passionate about solving real-world problems through AI.
 
 I've attached my resume for your consideration. I'd appreciate the opportunity to discuss how my skills align with your current needs.
 
 Best regards,
-Akash Sakhare
+Tushar Desai
 """
         }
     }
@@ -193,7 +193,7 @@ def send_emails_task(config):
         greeting = f"Hi {extract_name(receiver)}"
         
         msg = MIMEMultipart()
-        msg["From"] = formataddr(("Akash Sakhare", sender_email))
+        msg["From"] = formataddr(("Tushar Desai", sender_email))
         msg["To"] = receiver
         msg["Subject"] = template_subject
         

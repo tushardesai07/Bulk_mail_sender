@@ -1,4 +1,12 @@
 {
-    "email": "tushardesai1403@gmail.com",
-    "password": "oiwialupykbklqvp"
+    "current_template": {
+        "name": "custom",
+        "subject": "Application for python developer and software developer",
+        "body": "{greeting},\n\nII hope you\u2019re having a productive and meaningful day.\n\nMy name is Tushar Desai, and I\u2019m currently working as a Software Developer with 2+ years of professional experience. I have hands-on experience in Python, SQL, REST APIs, API integration, ERPNext/Frappe, React Native, JavaScript, Git/GitHub, Linux, and AI/ML & LLM integration.\n\nDuring my experience, I have worked on projects including CRM, Warehouse Management, and Milk Delivery applications, where I contributed to backend development, API development and integration, database management, mobile application development, and ERPNext/Frappe customizations. I have also worked with OpenAI APIs and AI-based features.\n\nI\u2019m currently exploring opportunities for Software Developer, Python Developer, ERPNext/Frappe Developer, or related roles where I can contribute my technical skills and continue growing professionally.\n\nI have attached my resume for your review. If there are any current or upcoming opportunities matching my profile, I would be happy to connect and discuss them further.\n\nWarm regards,\nTushar Desai\nSoftware Developer\n\ud83d\udcde 8767709592\n\ud83d\udd17 LinkedIn: linkedin.com/in/tushar-desai-14a711259\n\ud83d\udcbb GitHub: github.com/tushardesai07"
+    },
+    "stopper": 1,
+    "resume_file": "Tushar_Desai_PD.pdf",
+    "default_file": "Global_HR_Profiles_125K.csv",
+    "email": "td255961@gmail.com",
+    "password": "jrvhenxncxhnlyhh"
 }
